@@ -24,11 +24,11 @@ Due to inconsistencies between the timestamp and year columns, the timestamp (in
 - **Data Processing:**
 The solution is implemented in `Python`, utilizing `Pandas` for data manipulation and `Matplotlib` for visualization.
 
-## **Dataset Details**
+### **Dataset Details**
 
 The dataset encompasses Amazon electronics sales data spanning from 1999 to 2018. It is available on [Kaggle](https://www.kaggle.com/datasets/edusanketdk/electronics/data).
 
-## **Analysis and Insights**
+### **Analysis and Insights**
 By addressing the following queries, insights into various aspects of the input dataset are gained:
 
 - **Categories of Electronic Products:**
