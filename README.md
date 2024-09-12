@@ -1,6 +1,7 @@
-# Project: Amazon Electronics Products Sales
+# Project: Data Analysis using Python, pandas, and MySQL
 
 This notebook demonstrates a comprehensive sales analysis of an Amazon electronics products dataset with dimensions 1.3M x 10.
+In this example, I will present two approaches: one focusing on Pandas DataFrame and the other focusing on creating tables using SQL.
 
 The analysis aims to address the following questions:
 - What are the categories of electronic products?
@@ -9,8 +10,9 @@ The analysis aims to address the following questions:
 - Given a brand, identify the categories in which it has products.
 - Determine the categories with the highest market competition.
 
-## **Approach**
+## **1. DataFrame-based Approach**
 
+This approach is implemented in the script `main.ipynb`.
 A systematic approach is followed throughout my analysis, with each step accompanied by insights into the dataset: 
 - **Data Cleaning:** 
 Data cleaning involved scanning the input dataset to identify columns where NaN values occupy the majority of rows.
@@ -47,3 +49,11 @@ By addressing the following queries, insights into various aspects of the input 
 ![Sales.png](./plots/Sales.png)
 
 ![PieChart_exploded.png](./plots/PieChart_exploded.png)
+
+## **2. SQL-based Approach**
+
+This script `sql_based_approach.ipynb` demonstrates an approach that leverages a structured database schema using SQL for the data analysis task. MySQL is chosen as the underlying DBMS.
+
+The mysql.connector module allows Python users to interact conveniently with MySQL databases.
+
+Although some preprocessing is performed on the input pandas DataFrame, the focus of this task is on creating databases in SQL from a DataFrame.
